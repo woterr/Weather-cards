@@ -213,7 +213,17 @@ section {
     flex-direction: column;
   }
   .card {
-    transform: scale(1);
-    margin: 10px;
+    transform: scale(1.2);
+    height: 350px;
+    width: 300px;
+    margin: 0 10px 50px 10px;
+  }
+
+  .overlay {
+    width: 300px;
+  }
+
+  .card:hover {
+    transform: scale(1.16);
   }
 }
